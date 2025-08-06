@@ -3,3 +3,7 @@ export type Menuitem = {
     name: string;
     price: number;
 }
+
+export type OrderItem = Menuitem & {
+    quantity: number;
+}
